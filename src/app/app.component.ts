@@ -7,23 +7,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   readonly title = 'marked-issue';
-  readonly test: string = ` ### Title
+  readonly test: string = `   ### Title
 
-  <h3>Header 3</h3>
+<h3>Header 3</h3>
   
-  <p style="font-size:14px;">First HTML sentence</p>
+<p style="font-size:14px;">First HTML sentence</p>
   
-  <p style="font-size:14px;">Second HTML sentence</p>
+<p style="font-size:14px;">Second HTML sentence</p>
   
-  <p style="font-size:14px;">Third HTML sentence</p>  
-  
-    
-  
-  ### Full Name
-  
-  Test name
+<p style="font-size:14px;">Third HTML sentence</p>  
   
     
-  ### ABC title with space at end of line  
-  Another line`;
+  
+### Full Name
+  
+Test name
+  
+    
+### ABC title with space at end of line  
+Another line`;
 }
